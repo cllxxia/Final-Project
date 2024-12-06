@@ -1,0 +1,203 @@
+/*Product pages*/
+.product-name h2{
+  font-family: "Titillium Web", serif;
+  font-size: 50px;
+  color: #f9f9f9;
+}
+.product-price h3{
+  font-family: "Montserrat", serif;
+  font-size: 20px;
+  color: #f9f9f9;
+}
+.product-specs{
+  font-family: "Montserrat", serif;
+  color: #f9f9f9;
+}
+.product-info{
+  font-family: "Montserrat", serif;
+  color: #f9f9f9;
+}
+/*Shop now page*/
+.masthead h2{
+  font-family: "Montserrat", serif;
+  font-size: xx-large;
+}
+.shop-images{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.shop-images > img{
+  width: 700px;
+  height: auto;
+}
+.shop-images > figure > figcaption{
+  font-family: "Montserrat",serif;
+  color: #f9f9f9;
+}
+
+/*About us*/
+.about-us h2{
+  font-family: "Montserrat", serif;
+}
+.info{
+  font-family: "Montserrat", serif;
+  background-color: #f4f4f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  text-align: justify;
+  line-height: 1.6;
+}
+.info p:last-of-type{
+  font-weight: bold;
+}
+
+/*Contact page*/
+.contact h3{
+  font-family: "Montserrat", serif;
+  margin-left: 10%;
+  position: absolute;
+  top: 360px;
+}
+.contact h4{
+  font-family: "Montserrat", serif;
+  font-size: x-large;
+  margin-left: 39%;
+}
+.contact-info{
+  font-family: "Montserrat", serif;
+  position: absolute;
+  top: 400px;
+  margin-left: 10%;
+}
+.info input, .info textarea{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding: 14px;
+  display: block;
+  border: 1px solid;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f9f9f9;
+}
+/*adjusting text block size*/
+.info textarea{
+  resize: vertical;
+  min-height: 120px;
+}
+.info button{
+  background-color: #565657;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 47%;
+  height: 40px;
+  width: auto;
+}
+/*Header*/
+.header{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.nav-bar {
+  background-color: #333;
+  padding: 10px;
+  margin: auto;
+  }
+
+.nav-bar nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 20px;
+  display: flex;
+}
+
+.nav-bar nav ul li {
+  margin-right: 20px;
+}
+
+.nav-bar nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-bar nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/*Footer*/
+img{
+  height: 100px;
+  width: auto;
+}
+.locations h3{
+  font-family: "Montserrat", serif;
+  font-size: large;
+}
+.locations button{
+  font-family: "Montserrat", serif;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  height: 40px;
+  width: auto;
+  background-color:#b7b5b5;
+}
+.news h4{
+  font-family: "Montserrat", serif;
+  font-size: large;
+}
+.news-form input{
+  font-family: "Montserrat", serif;
+  border-radius: 2px;
+  width: 270px;
+  height: 30px;
+}
+.company h5{
+  font-family: "Montserrat", serif;
+  font-size: large;
+  padding-left: 20px;
+}
+.company li{
+  font-family: "Montserrat", serif;
+}
+.grid{
+  padding-left: 20px;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 200px auto auto auto;
+  
+  height: 300px;
+  width: 100%;
+  background-color: #f4f4f9;
+  position:absolute;
+  bottom: 0;
+  margin: 0;
+  }
+   h6{
+    font-family: "Montserrat", serif;
+    position: absolute;
+    left: 400px;
+    top: 300px;
+    text-align: center;
+  }
+  /*Home Page*/
+  .masthead h2{
+    font-size: 50px;
+    color: #ffffff;
+    position: absolute;
+    top: 500px;
+    word-spacing: 40px;
+  }
+  main{
+    background-image: url('./imgs/xbox-BG.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+  }
